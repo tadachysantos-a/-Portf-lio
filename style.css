@@ -3,17 +3,35 @@ body{
     background-size: 100%;
 }
 h1{
-    color:black;
     font-size: 45px;
     margin-bottom: 30px;
 
 }
-p{
+a p{
     font-size: 16px;
     line-height: 1.6;
-    margin: 15px 40px;
+    margin: 15px auto;
     color: rgb(0, 0, 0);
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s all;
+
 }
 header{
     background-color: rgb(47, 97, 27);
+}
+main{
+    background-color: aqua;
+}
+a p:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    transform: rotate3d(45deg);
+     border-style: solid;
+}
+a p:active{
+    border-style: solid;
 }
