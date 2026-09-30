@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-size: 100%;
+    background-color: rgb(42, 140, 165);
+}
+h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+
+}
+a p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 15px auto;
+    color: rgb(0, 0, 0);
+    width: 30%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s all;
+
+}
+header{
+    background-color: rgb(244, 247, 242);
+}
+main{
+    background-color: rgb(255, 253, 253);
+}
+a p:hover{
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.2);
+    transform: rotate3d(45deg);
+     border-style: solid;
+     animation: rodar3d 3s linear infinite;
+}
+a p:active{
+    border-style: solid;
+}
+@keyframes rodar3d {
+    0% {
+        transform: rotate3d(1,1,0,0deg);
+        background-color: rgb(138, 134, 134);
+    }
+    100% {
+        transform: rotate3d(1,1,0,360deg);
+        background-color: rgb(0, 0, 0);
+    }
+}
