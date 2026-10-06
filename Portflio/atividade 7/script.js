@@ -9,7 +9,7 @@ function aleatorio(){
     mostrar.innerHTML += `<p>Acabei de pensar no número ${num}</p>`;
     
     if(num == 67){
-        alert("vc tem muita aura");
+        alert("Você tem muita AURA");
     }
     
 
