@@ -8,3 +8,4 @@ function site(){
 
     result.innerHTML = `<p>Olá, ${nome}! é um prazer te conhecer! <br> O sitema me enviou a seguinte informação:</br> <mark>${agora}</mark> </p>`;
 }
+
